@@ -50,7 +50,7 @@ for i in range(len(mylist) - 1):
     a = mylist[i]
     b = mylist[i+1]
 
-    if b ==0:
+    if b ==0 or a==0:
         pass
     else:
 
