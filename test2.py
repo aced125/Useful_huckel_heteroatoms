@@ -70,7 +70,7 @@ eig = eig[idx]
 evecs = evecs[:,idx]
 
 for i in range(len(eig)):
-    print('alpha + ' + str(round(eig[i],3)) + ' beta')
+    print('alpha + ' + str(round(-eig[i],3)) + ' beta')
 
 print(evecs.round(2))
 
